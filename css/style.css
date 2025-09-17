@@ -1,0 +1,102 @@
+
+/* ROOT */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header {
+  max-width: 100%;
+  height:100px;
+  background-color: #000;              
+  color: #fff;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 15px;    
+}
+
+.header__logo { 
+    color: #fff; 
+    text-decoration: none;
+    font-size: 2em;
+    display: flex;
+justify-self: center; 
+
+}
+.header__menu { 
+    list-style: none; 
+    display: flex; 
+    gap: 28px; 
+    align-items: center; 
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 4px;
+}
+
+.header__link:focus,
+.header__link:hover { outline: none; text-decoration: underline; }
+
+/* MAIN */
+
+.section {
+  min-height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  max-width: 1100px; 
+  width: 100%; 
+  text-align: center;
+}
+.section--1 {
+  color: #fff;
+  background: linear-gradient(180deg, #10002A 0%, #3B0099 100%);
+}
+
+.section--2 {
+  background: linear-gradient(180deg, #3B0099 0%, #FFFFFF 100%);
+  color: #111;
+}
+
+.section--3 {
+  background: linear-gradient(
+    180deg,
+    #FFFFFF 10%,
+    #FEA05C 40%,
+    #FE9D57 80%,
+    #4D86EB 100%
+  );
+  color: #111;
+}
+
+.section--4 {
+  background: linear-gradient(180deg, #4D86EB 0%, #FFFFFF 100%);
+  color: #111;
+}
+
+/* petits styles typographiques */
+.section__title { 
+    font-weight: 700; 
+    font-size: 3em; 
+}
+
+
+   /* FOOTER */ 
+.footer {
+  max-width: 100%;
+  background: #000;            
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-content: flex-end;
+}
