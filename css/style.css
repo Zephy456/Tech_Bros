@@ -24,7 +24,7 @@
     text-decoration: none;
     font-size: 2em;
     display: flex;
-justify-self: center; 
+    justify-self: center; 
 
 }
 .header__menu { 
@@ -49,7 +49,10 @@ justify-self: center;
 }
 
 .header__link:focus,
-.header__link:hover { outline: none; text-decoration: underline; }
+.header__link:hover { 
+    outline: none; 
+    text-decoration: underline; 
+}
 
 /* MAIN */
 
