@@ -66,7 +66,7 @@
   text-align: center;
 }
 .section--1 {
-  color: #fff;
+  
   background: linear-gradient(180deg, #10002A 0%, #3B0099 100%);
 }
 
@@ -94,7 +94,10 @@
 /* petits styles typographiques */
 .section__title { 
     font-weight: 700; 
-    font-size: 3em; 
+    font-size: 3em;
+    padding: 40px; 
+    background-color: white;
+    box-shadow:30px 30px 2px #FE9D57;
 }
 
 
